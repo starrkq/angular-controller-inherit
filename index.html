@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<body>
+		<div ng-app="app">
+			<div ng-controller="FormController">
+				<button class="btn btn-default" ng-click="parentFunction()">调用父类的方法</button>
+				<button class="btn btn-default" ng-click="callSelfFunction()">调用本身的方法</button>
+
+				<button class="btn btn-default" ng-click="callFunction1()">对父类方法进行扩展</button>
+				<button class="btn btn-default" ng-click="callFunction2()">对父类方法进行重写</button>
+			</div>
+		</div>
+   </body>
+</html>
